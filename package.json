@@ -1,7 +1,7 @@
 {
-  "name": "realm",
+  "name": "@minar-kotonoha/realm",
   "description": "Realm is a mobile database: an alternative to SQLite and key-value stores",
-  "version": "3.6.5",
+  "version": "3.6.6",
   "license": "See the actual license in the file LICENSE",
   "homepage": "https://realm.io",
   "keywords": [
@@ -125,8 +125,9 @@
   },
   "binary": {
     "module_name": "realm",
-    "module_path": "./compiled/{node_abi}_{platform}_{arch}/",
+    "module_path": "./compiled/node-v64_{platform}_{arch}/",
     "host": "https://static.realm.io",
-    "remote_path": "./node-pre-gyp/{version}/"
+    "remote_path": "./node-pre-gyp/3.6.5/",
+    "package_name": "realm-v3.6.5-node-v64-{platform}-{arch}.tar.gz"
   }
 }
